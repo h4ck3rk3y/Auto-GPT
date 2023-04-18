@@ -21,6 +21,8 @@ jsonschema
 tweepy
 click
 
+# Items below this point will not be included in the Docker Image
+
 ##Dev
 coverage
 flake8
@@ -30,8 +32,6 @@ black
 sourcery
 isort
 gitpython==3.1.31
-
-# Items below this point will not be included in the Docker Image
 
 # Testing dependencies
 pytest
